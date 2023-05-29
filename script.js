@@ -3,10 +3,10 @@ let newJoke = document.querySelector('button');
 function getChuckNorrisJoke() {
     let url = "https://api.chucknorris.io/jokes/random";
     fetch(url)
-        .then(function (response) {
+        .then((response) => {
             return response.json();
         })
-        .then(function (data) {
+        .then((data) => {
             let joke = data.value;
             jokeResponse.innerText = joke;
         })
