@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+.main {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 250px;
+    background-color: beige;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.buttom {
+    display: flex;
+    justify-content: center;
+    font-family: 'Princess Sofia', cursive;
+    font-style: italic;
+}
